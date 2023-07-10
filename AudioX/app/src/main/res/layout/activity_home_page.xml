@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/spp"
+    android:scaleType="centerCrop"
+
+    />
+<TextView
+    android:id="@+id/audio"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+    android:textColor="@color/white"
+    android:textSize="60dp"
+    android:textStyle="bold"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="90dp"
+    />
+    <TextView
+        android:id="@+id/listen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/listen"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_below="@+id/audio"
+        android:layout_marginTop="410dp"
+        android:textStyle="italic"
+        android:layout_marginLeft="55dp"
+        />
+    <TextView
+        android:id="@+id/favourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listen"
+        android:textSize="20dp"
+        android:text="@string/favourite"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        />
+<Button
+    android:id="@+id/CreateButton"
+    android:layout_width="290dp"
+    android:layout_height="50dp"
+    android:layout_below="@+id/favourite"
+    android:layout_marginLeft="38dp"
+    android:text="@string/create"
+    android:textSize="20dp"
+    android:layout_marginTop="15dp"
+    android:backgroundTint="@color/blue"
+    />
+    <TextView
+        android:id="@+id/already"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already"
+        android:layout_below="@+id/CreateButton"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="70dp"
+        />
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CreateButton"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/green"
+        android:text="Sign In?"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/already"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

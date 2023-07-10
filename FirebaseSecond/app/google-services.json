@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987164090567",
+    "project_id": "fir-second-87522",
+    "storage_bucket": "fir-second-87522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987164090567:android:c2d79e5fbcb11576ca1ee2",
+        "android_client_info": {
+          "package_name": "com.example.firebasesecond"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987164090567-kpsqh9g9cb0pkbgurf00ipim0oogs3mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrxt334vo6-xhXTrng-G-JtBSSIdhDXGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987164090567-kpsqh9g9cb0pkbgurf00ipim0oogs3mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

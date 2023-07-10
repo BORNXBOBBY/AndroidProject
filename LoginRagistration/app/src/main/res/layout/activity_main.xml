@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SologanCompanyLandingPageActivity">
+
+    <RelativeLayout
+        android:id="@+id/page_back_color"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/lightSky"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/white"
+            android:text="Sologan"
+            />
+    </RelativeLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/user_login_card"
+        android:layout_below="@+id/page_back_color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:padding="100dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/user_main_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/user_login_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="@color/lightSky"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:layout_margin="40dp"
+                />
+            <RelativeLayout
+                android:id="@+id/login_form"
+                android:layout_below="@+id/user_login_text"
+                android:layout_width="match_parent"
+                android:layout_margin="10dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/text_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    />
+                <EditText
+                    android:id="@+id/edit_username"
+                    android:layout_below="@id/text_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                <TextView
+                    android:id="@+id/text_password"
+                    android:layout_below="@+id/edit_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    />
+                <EditText
+                    android:id="@+id/edit_password"
+                    android:layout_below="@id/text_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+
+                Bablet अभिमन्यु, [5/23/2023 11:13 AM]
+                <TextView
+                    android:id="@+id/text_forgot_password"
+                    android:layout_below="@+id/edit_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot Your Password"
+                    android:layout_marginLeft="150dp"
+                    />
+
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_below="@+id/text_forgot_password"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:text="LOGIN"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:backgroundTint="@color/lightSky"
+                    android:textColor="@color/white"
+                    android:layout_margin="10dp"
+                    />
+                <TextView
+                    android:id="@+id/text_desc"
+                    android:layout_below="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Don't have an account?"
+                    android:layout_marginLeft="50dp"
+
+                    />
+                <TextView
+                    android:id="@+id/text_signin"
+                    android:layout_below="@+id/login_btn"
+                    android:layout_marginLeft="200dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up"
+                    android:textColor="@color/lightSky"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

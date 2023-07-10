@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    tools:context=".BookFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Artist"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+        android:id="@+id/bell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/baseline_doorbell_24"
+        android:layout_marginLeft="260dp"
+        />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon"
+        android:src="@drawable/b"
+        android:layout_marginLeft="300dp"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/menu"
+        tools:ignore="MissingConstraints" />
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView"
+        android:layout_width="140dp"
+        android:layout_below="@+id/recyclerview"
+        android:layout_marginLeft="20dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        card_view:cardCornerRadius="4dp">
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="80dp"
+        android:src="@drawable/spotify1"
+        android:layout_gravity="center"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gym Time"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            />
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cardView3"
+        android:layout_marginTop="20dp"
+        android:layout_width="140dp"
+        android:layout_below="@+id/recyclerview"
+        android:layout_marginLeft="195dp"
+        android:layout_height="70dp"
+        card_view:cardCornerRadius="4dp">
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="80dp"
+            android:src="@drawable/spotify5"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deep Focus"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="18dp"
+            android:textColor="@color/white"
+            />
+
+    </androidx.cardview.widget.CardView>
+<TextView
+    android:id="@+id/let"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/cardView3"
+    android:text="Let's Party Enjoy Guys!"
+    android:textAlignment="center"
+    android:layout_marginTop="20dp"
+    android:textColor="@color/white"
+    android:textStyle="italic"
+    android:textSize="30dp"
+    />
+</RelativeLayout>
