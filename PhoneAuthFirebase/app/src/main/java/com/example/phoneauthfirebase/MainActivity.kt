@@ -49,17 +49,13 @@ class MainActivity : AppCompatActivity() {
             auth.signInWithCredential(credential)
                 .addOnSuccessListener {
                     Toast.makeText(this, "verified", Toast.LENGTH_SHORT).show()
-                    Toast.makeText(this, "Registation successfull", Toast.LENGTH_SHORT).show()
-
+                    Toast.makeText(this, "Registration successfully", Toast.LENGTH_SHORT).show()
                 }
                 .addOnFailureListener {
                     Toast.makeText(this, "not verify", Toast.LENGTH_SHORT).show()
                 }
 
         }
-
-
-
     }
 // send otp message
 

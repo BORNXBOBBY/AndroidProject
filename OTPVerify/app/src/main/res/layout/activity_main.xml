@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="40dp"
+    android:text="Edugaon"
+    android:textColor="@color/orange"
+    android:layout_marginLeft="80dp"
+    />
+
+    <com.hbb20.CountryCodePicker
+        android:layout_marginTop="70dp"
+        android:id="@+id/ccp"
+        android:background="@color/orange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:ccp_defaultNameCode="IND"
+        />
+
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ccp"
+        android:textColor="@color/white"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/sendOtp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/phone_number"
+        android:layout_marginTop="20dp"
+        android:hint="SEND_OTP"
+        android:textColorHint="@color/white"
+        />
+
+
+
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="@color/white"
+        android:layout_below="@id/sendOtp"
+        />
+    <Button
+        android:id="@+id/verifyOtp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/otp"
+        android:layout_marginTop="20dp"
+        android:hint="VERIFY"
+        android:textColorHint="@color/white"
+        />
+
+
+</RelativeLayout>

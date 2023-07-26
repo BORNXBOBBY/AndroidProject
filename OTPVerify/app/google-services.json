@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "281076657492",
+    "project_id": "phoneauthtest-e9e48",
+    "storage_bucket": "phoneauthtest-e9e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281076657492:android:73c4e0eeec3ae032f3acc1",
+        "android_client_info": {
+          "package_name": "com.example.otpverify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281076657492-4hf21gj3tkcgnv9ggnvq4hhdr2uup9mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzOubY2N-7lR3Gsu5wA2pY7xqyLo0x0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281076657492-4hf21gj3tkcgnv9ggnvq4hhdr2uup9mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281076657492:android:01c707c3a23af560f3acc1",
+        "android_client_info": {
+          "package_name": "com.example.phoneauthfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281076657492-4hf21gj3tkcgnv9ggnvq4hhdr2uup9mu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzOubY2N-7lR3Gsu5wA2pY7xqyLo0x0s4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281076657492-4hf21gj3tkcgnv9ggnvq4hhdr2uup9mu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

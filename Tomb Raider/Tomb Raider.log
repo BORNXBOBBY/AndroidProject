@@ -1,362 +1,258 @@
-12:46:49:630 (00024344) > [Startup] Tomb Raider
-12:46:49:630 (00024344) > [Startup] ==============
-12:46:49:630 (00024344) > [Startup] 
-12:46:49:630 (00024344) > [Startup] Build: v1.1 build 838.0_32
-12:46:49:630 (00024344) > [Startup] Windows 10 Home (build 22621) (version 2009)
-12:46:49:630 (00024344) > [Startup] Game directory: C:\Users\bobbykumar\Documents\Tomb Raider\
-12:46:49:630 (00024344) > [Startup] 
-12:46:49:630 (00024344) > [Startup] Memory statistics:
-12:46:49:630 (00024344) > [Startup]   Total RAM = 7.8 GB (8029 MB)
-12:46:49:630 (00024344) > [Startup]   Avail RAM = 3.4 GB (3440 MB)
-12:46:49:630 (00024344) > [Startup]   Total virtual memory = 4.0 GB (4095 MB)
-12:46:49:631 (00024344) > [Startup]   Avail virtual memory = 3.4 GB (3435 MB)
-12:46:49:631 (00024344) > [Startup] 
-12:46:49:631 (00024344) > [Epic] Initializing Epic SDK.
-12:46:49:641 (00024344) > [Epic] Initialized. Setting Logging Callback ...
-12:46:49:641 (00024344) > [Epic] Logging Callback Set
-12:46:49:641 (00024344) > [Epic] Creating platform.
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Overlay library loaded, version ++EOSSDK+Release-Overlay-CL-21323361
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Beginning dxgi factory detour
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Factory detour complete
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Beginning swap chain detour
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Attempting to create swap chain using D3D11
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Successfully created swap chain using D3D11 with feature level b000
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Swapchain detour complete
-12:46:49:799 (00024344) > [Epic] LogEOSOverlay: Overlay loaded and initialized
-12:46:49:808 (00024344) > [Epic] LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started with the correct launcher if you intend to use it.
-12:46:49:808 (00024344) > [Epic] Platform created.
-12:46:49:808 (00024344) > [Info] Starting Tomb Raider v1.01.0.0
-12:46:49:811 (00024344) > [Info] [Main] Current directory: C:\Program Files\Epic Games\TombRaiderGOTYE
-12:46:49:811 (00024344) > [Main] Epic Language: 'en-us' win-locale: en
-12:46:49:812 (00024344) > [File] Mounted TITLE.000
-12:46:49:812 (00024344) > [File] Mounted PATCH.000
-12:46:49:812 (00024344) > [File] Mounted PATCH2.000
-12:46:49:815 (00024344) > [File] Mounted PATCH3.000
-12:46:49:815 (00024344) > [File] Mounted PATCH3.000
-12:46:49:817 (00024344) > [File] Mounted PATCH3.000
-12:46:49:855 (00024344) > [D3D] [Render] PCDeviceManager constructor start
-12:46:49:897 (00024344) > [D3D] [Render] PCDeviceManager constructor end
-12:46:49:972 (00024344) > [D3D] [Render] PCDX11DeviceManager constructor start
-12:46:49:972 (00024344) > [D3D] D3D Adapter Information:
-12:46:49:972 (00024344) > [D3D] Adapter Description: NVIDIA GeForce GTX 1650
-12:46:49:972 (00024344) > [D3D] VendorID: 10de
-12:46:49:972 (00024344) > [D3D] DeviceID: 1f99
-12:46:49:972 (00024344) > [D3D] Revision: a1
-12:46:49:972 (00024344) > [D3D] NVidia hardware detected. Attemping to load NVAPI...
-12:46:49:972 (00024344) > [D3D] NVAPI loaded succesfully.
-12:46:49:972 (00024344) > [D3D] NvAPI_Stereo_IsEnabled() returned an error: -219
-12:46:49:999 (00024344) > [D3D] Reducing mouse lag by setting frame latency to 1...
-12:46:49:999 (00024344) > [D3D] D3D reports feature level 11 is supported.
-12:46:49:999 (00024344) > [D3D] NVAPI Depth Bounds Test supported.
-12:46:50:007 (00024344) > [D3D] D3D Adapter Information:
-12:46:50:007 (00024344) > [D3D] Adapter Description: Intel(R) UHD Graphics
-12:46:50:007 (00024344) > [D3D] VendorID: 8086
-12:46:50:007 (00024344) > [D3D] DeviceID: 9ba4
-12:46:50:007 (00024344) > [D3D] Revision: 5
-12:46:50:026 (00024344) > [D3D] Reducing mouse lag by setting frame latency to 1...
-12:46:50:026 (00024344) > [D3D] D3D reports feature level 11 is supported.
-12:46:50:026 (00024344) > [D3D] D3D reports no hardware multiple command list support.
-12:46:50:028 (00024344) > [D3D] [Render] Adapter I has no outputs!
-12:46:50:028 (00024344) > [D3D] D3D Adapter Information:
-12:46:50:028 (00024344) > [D3D] Adapter Description: Microsoft Basic Render Driver
-12:46:50:028 (00024344) > [D3D] VendorID: 1414
-12:46:50:028 (00024344) > [D3D] DeviceID: 8c
-12:46:50:028 (00024344) > [D3D] Revision: 0
-12:46:50:031 (00024344) > [D3D] Reducing mouse lag by setting frame latency to 1...
-12:46:50:031 (00024344) > [D3D] D3D reports feature level 11 is supported.
-12:46:50:031 (00024344) > [D3D] D3D reports no hardware multiple command list support.
-12:46:50:031 (00024344) > [D3D] [Render] Adapter M has no outputs!
-12:46:50:031 (00024344) > [D3D] [Render] PCDX11DeviceManager constructor end
-12:46:53:560 (00024344) > [MultiCore] CPU count: logical = 8, cores = 4, physical = 1
-12:46:53:582 (00024344) > [D3D] D3D Adapter Information:
-12:46:53:582 (00024344) > [D3D] Adapter Description: NVIDIA GeForce GTX 1650
-12:46:53:582 (00024344) > [D3D] VendorID: 10de
-12:46:53:582 (00024344) > [D3D] DeviceID: 1f99
-12:46:53:582 (00024344) > [D3D] Revision: a1
-12:46:53:582 (00024344) > [D3D] NVidia hardware detected. Attemping to load NVAPI...
-12:46:53:582 (00024344) > [D3D] NVAPI loaded succesfully.
-12:46:53:582 (00024344) > [D3D] NvAPI_Stereo_IsEnabled() returned an error: -140
-12:46:53:650 (00024344) > [D3D] Reducing mouse lag by setting frame latency to 1...
-12:46:53:650 (00024344) > [D3D] D3D reports feature level 11 is supported.
-12:46:53:650 (00024344) > [D3D] NVAPI Depth Bounds Test supported.
-12:46:53:658 (00019936) > [D3D] CreateSwapChain() = 0
-12:46:53:658 (00019936) > [D3D] MakeWindowAssociation() = 0
-12:46:55:345 (00019936) > [D3D] SetFullscreenState() = 0
-12:46:55:494 (00024344) > [D3D] [Render] Using DirectX 11
-12:46:55:494 (00024344) > [File] Mounted PATCH3.000
-12:46:55:681 (00024344) > [SND] Initalizing audio...
-12:46:55:782 (00024344) > [SND] Audio device found. FMOD reports 2 driver(s).
-12:46:55:782 (00024344) > [SND] Audio Driver Name: Headphones (2- Airdopes 131)
-12:46:55:782 (00024344) > [SND] Speaker Mode: 2
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Probing swap chain to determine device version
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Probe complete, determined: D3D11
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Window subclass attached to 00070694
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Creating overlay widget manager
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Launching render process
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Overlay ready. Firing 1 OnReady handlers
-12:47:00:096 (00024344) > [Epic] LogEOSOverlay: Tick thread starting...
-12:47:00:096 (00024344) > [Epic] LogEOS: Large tick time detected 10.2884
-12:47:00:096 (00024344) > [Epic] LogEOS: Updating Platform SDK Config, Time: 10.288352
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000001 (steam id=208790)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000002 (steam id=208791)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000004 (steam id=208792)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000008 (steam id=208793)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208794)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208795)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208796)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208797)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208798)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208799)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208800)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00000400 (steam id=208801)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00000800 (steam id=208802)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00001000 (steam id=208803)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00002000 (steam id=208804)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00004000 (steam id=208805)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00100000 (steam id=208806)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00200000 (steam id=208807)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x00400000 (steam id=208808)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 2 - 0x10000000 (steam id=208815)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 3 - 0x00000001 (steam id=208809)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 3 - 0x00000002 (steam id=208817)
-12:47:00:096 (00024344) > [Info] [DLC] mounted pack 3 - 0x00000004 (steam id=208818)
-12:47:00:251 (00024344) > [Info] [DLC] mounted DLC\PACK8.000 (steam id=208812, pack id=8)
-12:47:00:251 (00024344) > [Info] [DLC] mounted DLC\PACK4.000 (steam id=208810, pack id=4)
-12:47:00:251 (00024344) > [Info] [DLC] mounted DLC\PACK5.000 (steam id=208811, pack id=5)
-12:47:00:251 (00024344) > [Info] [DLC] mounted DLC\PACK6.000 (steam id=208814, pack id=6)
-12:47:00:252 (00024344) > [Info] [DLC] mounted DLC\PACK7.000 (steam id=208813, pack id=7)
-12:47:00:625 (00024344) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
-12:47:00:625 (00024344) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
-12:47:00:625 (00024344) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
-12:47:00:625 (00024344) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
-12:47:01:822 (00024344) > [Epic] LogEOS: SDK Config Platform Update Request Successful, Time: 11.997779
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Start Session (User: ...)
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: SDKOverlayComponent.Init <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayLoaded <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.FactoryDetour <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapchainDetour <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.ObserveBrowserStatus <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterKeyListener <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayInitialized <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.LaunchRenderProcess <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapChainCreated <Redacted>
-12:47:01:823 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:01:823 (00024344) > [Epic] WARNING: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
-12:47:01:824 (00024344) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
-12:47:01:824 (00024344) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
-12:47:01:824 (00024344) > [Epic] LogEOS: Updating Product SDK Config, Time: 12.013850
-12:47:01:824 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
-12:47:01:837 (00024344) > [Info] OLWebServiceClient [Status:200] [DownloadEvent:Finished] [HttpError:OK]
-12:47:02:147 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:02:178 (00024344) > [Epic] LogEOSConnect: ConnectClientAuthTask Success
-12:47:02:194 (00024344) > [Epic] LogEOSAnalytics: Start Session (User: ...)
-12:47:02:502 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:02:518 (00024344) > [Epic] LogEOS: SDK Config Product Update Request Successful, Time: 12.693714
-12:47:02:521 (00024344) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
-12:47:02:521 (00024344) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
-12:47:02:521 (00024344) > [Epic] LogEOS: SDK Config Data - Watermark: 968253146
-12:47:02:521 (00024344) > [Epic] LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12.693714, Update Interval: 356.053955
-12:47:02:879 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:02:893 (00024344) > [Epic] LogEOSAuth: UserAuth Success
-12:47:02:893 (00024344) > [Epic] LogEOSAuth: NewUserToken: User ClientId: xyz...Irj AccountId: 8f5...d80 Access[Expires: 2023.07.08-09.17.02 Remaining: 7200.75] Refresh[Expires: 2023-07-08T15:17:02.749Z Remaining: 28800.75] State: Valid
-12:47:02:909 (00024344) > [Epic] LogEOSAuth: GenerateUserAuth success
-12:47:03:203 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:03:219 (00024344) > [Epic] LogEOSAuth: login/queryuserinfo success
-12:47:03:219 (00024344) > [Epic] LogEOSUI: Social Overlay: 'leaderboards' feature disabled by overlay.
-12:47:03:219 (00024344) > [Epic] LogEOSAuth: Login Tasks Complete: 0
-12:47:03:266 (00024344) > [Epic] LogEOSUI: Social Overlay: Loading: <Redacted>
-12:47:03:266 (00024344) > [Epic] LogEOSUI: Social Overlay: Initital DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox(unset) }
-12:47:03:266 (00024344) > [Epic] LogEOSOverlay: Overlay loading <Redacted> in instance 371309320214095836
-12:47:03:266 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.LoadURL <Redacted>
-12:47:03:312 (00024344) > [Epic] LogEOSOverlay: LoadURL result received. [Success=1, BrowserID=1]
-12:47:03:312 (00024344) > [Epic] LogEOSOverlay: Browser status 0 received for browser 1
-12:47:03:312 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.LoadURL <Redacted>
-12:47:03:312 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.LoadURLResult <Redacted>
-12:47:03:312 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.BrowserCreated <Redacted>
-12:47:03:312 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.ConnectBrowserAndRenderProcesses <Redacted>
-12:47:03:312 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
-12:47:03:373 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:05:029 (00024344) > [Epic] LogEOSPresence: Updating Presence to Online. LocalUserId=[8f5...d80] RichText=[]
-12:47:05:344 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.JavascriptContextCreated <Redacted>
-12:47:05:359 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:05:716 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.FrameLoadEnd <Redacted>
-12:47:05:716 (00024344) > [Epic] LogEOSOverlay: Browser status 1 received for browser 1
-12:47:05:732 (00024344) > [Epic] LogEOSUI: Social Overlay: Initial setup of friends overlay: EOS_Success
-12:47:05:732 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
-12:47:05:732 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:732 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:779 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:779 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:779 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:779 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:794 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:794 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:795 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:795 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:841 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:841 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.appstartup <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:856 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:872 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:05:872 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:05:887 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:05:887 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:887 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:887 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:887 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:05:902 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:05:902 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.statechange <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.sdk.time_to_first_payload <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:964 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:05:995 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:05:995 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:06:010 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:06:026 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:06:988 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:06:988 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:06:988 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:004 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:004 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:004 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:035 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.add-notification <Redacted>
-12:47:07:035 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:035 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:035 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:050 (00024344) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
-12:47:07:050 (00024344) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
-12:47:07:050 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements refresh waiting for PUID for (8f5...d80) [state: 1, force: player? false, definitions? false].
-12:47:07:050 (00024344) > [Epic] LogEOSOverlay: Automatically giving keyboard focus to webview that just became visible [InstanceId=371309320214095836, BrowserId=1]
-12:47:07:050 (00024344) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(0,0)-(0,0)]) }
-12:47:07:050 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:050 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
-12:47:07:050 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:065 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:065 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:096 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:096 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:112 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:143 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:143 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:174 (00024344) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
-12:47:07:174 (00024344) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
-12:47:07:174 (00024344) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(TRUE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
-12:47:07:174 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:174 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
-12:47:07:174 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:189 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:204 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:204 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:204 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:282 (00024344) > [Epic] LogEOSOverlay: Received new texture handle. [Type=0, InstanceId=371309320214095836, BrowserId=1, TabId=0, Previous=00000000, New=40002E42]
-12:47:07:282 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.InitialTextureReceived <Redacted>
-12:47:07:343 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:07:580 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:580 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:613 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.perf.api-timing <Redacted>
-12:47:07:613 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:07:613 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:07:629 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:646 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:07:646 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:664 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:07:780 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:07:796 (00024344) > [Epic] LogEOSMessaging: Attempting connection to Stomp. LocalUserId=[000...83c] Url=[<Redacted>]
-12:47:08:062 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing player data for (8f5...d80) [state: 1, force: player? false, definitions? false].
-12:47:08:079 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:08:096 (00024344) > [Epic] LogEOSP2P: Applying updated RTC Configuration
-12:47:08:129 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:08:313 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing player data for (8f5...d80) [state: 1, force: player? false, definitions? false].
-12:47:08:363 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:08:379 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements data incomplete, starting next refresh for (8f5...d80).
-12:47:08:379 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing definition data for (8f5...d80) [state: 2, force: player? false, definitions? false].
-12:47:08:614 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:08:630 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:08:646 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements data incomplete, starting next refresh for (8f5...d80).
-12:47:08:646 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing definition data for (8f5...d80) [state: 2, force: player? false, definitions? false].
-12:47:09:296 (00024344) > [Epic] LogEOSMessaging: Succesfully connected to Stomp. LocalUserId=[000...83c]
-12:47:09:601 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:47:09:629 (00024344) > [Epic] LogEOSUI: Social Overlay: Achievements populated for (8f5...d80).
-12:47:09:629 (00024344) > [Epic] LogEOSMessaging: Stomp subscribed to topic /1d905add96d5490c82e0c2c913731926/account/0002c1c9018b47c089f3c9a6f420083c
-12:47:09:712 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:09:712 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:12:213 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:12:213 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:12:246 (00024344) > [Epic] LogEOSUI: Social Overlay: HandleDisplayUpdateIntent
-12:47:12:246 (00024344) > [Epic] LogEOSUI: Social Overlay: DisplayUpdateIntent{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
-12:47:12:246 (00024344) > [Epic] LogEOSUI: Social Overlay: New DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox([(1116,20)-(1516,145)]) }
-12:47:12:246 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:47:12:246 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.SetDisplaySettings <Redacted>
-12:47:12:246 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:47:12:264 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:12:264 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:12:279 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:47:12:279 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:47:44:417 (00024344) > [Info] Player object AddRef laracroft: 1 => 2
-12:47:44:420 (00024344) > [Info] Player object AddRef laracroft: 2 => 3
-12:47:44:428 (00024344) > [Info] Player object AddRef laracroft: 3 => 4
-12:48:01:835 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:01:835 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:02:170 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:02:170 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:02:904 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:02:904 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:48:03:202 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:48:03:237 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:48:05:005 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:07:374 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:08:643 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:48:50:151 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:49:03:206 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:49:03:506 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:49:03:523 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:50:03:520 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:50:03:819 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:50:03:837 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:50:50:117 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:51:03:833 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:51:04:217 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:51:04:233 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:52:04:229 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:52:04:546 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:52:04:562 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:52:06:129 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:52:06:129 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:52:06:163 (00024344) > [Epic] LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
-12:52:06:163 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
-12:52:06:163 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
-12:52:06:180 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:52:06:196 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
-12:52:06:196 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:52:06:213 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
-12:52:50:160 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:52:58:577 (00024344) > [Epic] LogEOS: Updating Product SDK Config, Time: 368.767151
-12:52:58:892 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:52:58:909 (00024344) > [Epic] LogEOS: SDK Config Product Update Request Completed - No Change
-12:52:58:909 (00024344) > [Epic] LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 369.083679, Update Interval: 300.426636
-12:53:04:560 (00024344) > [Epic] LogEOSAuth: Sending Verify Auth request. url=<Redacted>
-12:53:04:843 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:53:04:859 (00024344) > [Epic] LogEOSAuth: Verify Auth Success
-12:53:28:691 (00024344) > [Epic] LogEOSPresence: Setting presence to offline. LocalUserId=[8f5...d80]
-12:53:28:971 (00024344) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
-12:53:28:971 (00024344) > [Epic] LogEOSPresence: Setting presence to offline complete, LocalUserId=[8f5...d80], Result=EOS_Success
-12:53:28:971 (00024344) > [Epic] LogEOSOverlay: Closing browser [InstanceId=371309320214095836, BrowserId=1, TabId=0]
-12:53:28:972 (00024344) > [Epic] LogEOSAuth: Sending Kill Auth request. url=<Redacted>
-12:53:28:972 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.CloseBrowser <Redacted>
-12:53:28:972 (00024344) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EjectInstance <Redacted>
-12:53:28:996 (00024344) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
-12:53:30:481 (00024344) > [Info] Exiting the game.
+10:03:08:260 (00010868) > [Startup] Tomb Raider
+10:03:08:260 (00010868) > [Startup] ==============
+10:03:08:260 (00010868) > [Startup] 
+10:03:08:260 (00010868) > [Startup] Build: v1.1 build 838.0_32
+10:03:08:260 (00010868) > [Startup] Windows 10 Home (build 22621) (version 2009)
+10:03:08:260 (00010868) > [Startup] Game directory: C:\Users\bobbykumar\Documents\Tomb Raider\
+10:03:08:260 (00010868) > [Startup] 
+10:03:08:260 (00010868) > [Startup] Memory statistics:
+10:03:08:260 (00010868) > [Startup]   Total RAM = 7.8 GB (8029 MB)
+10:03:08:260 (00010868) > [Startup]   Avail RAM = 0.7 GB (732 MB)
+10:03:08:260 (00010868) > [Startup]   Total virtual memory = 4.0 GB (4095 MB)
+10:03:08:260 (00010868) > [Startup]   Avail virtual memory = 3.4 GB (3435 MB)
+10:03:08:260 (00010868) > [Startup] 
+10:03:08:260 (00010868) > [Epic] Initializing Epic SDK.
+10:03:08:272 (00010868) > [Epic] Initialized. Setting Logging Callback ...
+10:03:08:272 (00010868) > [Epic] Logging Callback Set
+10:03:08:272 (00010868) > [Epic] Creating platform.
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Overlay library loaded, version ++EOSSDK+Release-Overlay-CL-25975892
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Beginning dxgi factory detour
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Factory detour complete
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Beginning swap chain detour
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Attempting to create swap chain using D3D11
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Successfully created swap chain using D3D11 with feature level b000
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Swapchain detour complete
+10:03:08:444 (00010868) > [Epic] LogEOSOverlay: Overlay loaded and initialized
+10:03:08:455 (00010868) > [Epic] LogEOSAntiCheat: [AntiCheatClient] Anti-cheat client not available. Verify that the game was started with the correct launcher if you intend to use it.
+10:03:08:455 (00010868) > [Epic] Platform created.
+10:03:08:455 (00010868) > [Info] Starting Tomb Raider v1.01.0.0
+10:03:08:463 (00010868) > [Info] [Main] Current directory: C:\Program Files\Epic Games\TombRaiderGOTYE
+10:03:08:465 (00010868) > [Main] Epic Language: 'en-us' win-locale: en
+10:03:08:489 (00010868) > [File] Mounted TITLE.000
+10:03:08:495 (00010868) > [File] Mounted PATCH.000
+10:03:08:505 (00010868) > [File] Mounted PATCH2.000
+10:03:08:512 (00010868) > [File] Mounted PATCH3.000
+10:03:08:531 (00010868) > [File] Mounted PATCH3.000
+10:03:08:532 (00010868) > [File] Mounted PATCH3.000
+10:03:08:616 (00010868) > [D3D] [Render] PCDeviceManager constructor start
+10:03:08:683 (00010868) > [D3D] [Render] PCDeviceManager constructor end
+10:03:08:772 (00010868) > [D3D] [Render] PCDX11DeviceManager constructor start
+10:03:08:773 (00010868) > [D3D] D3D Adapter Information:
+10:03:08:773 (00010868) > [D3D] Adapter Description: NVIDIA GeForce GTX 1650
+10:03:08:773 (00010868) > [D3D] VendorID: 10de
+10:03:08:773 (00010868) > [D3D] DeviceID: 1f99
+10:03:08:773 (00010868) > [D3D] Revision: a1
+10:03:08:773 (00010868) > [D3D] NVidia hardware detected. Attemping to load NVAPI...
+10:03:08:773 (00010868) > [D3D] NVAPI loaded succesfully.
+10:03:08:773 (00010868) > [D3D] NvAPI_Stereo_IsEnabled() returned an error: -219
+10:03:08:806 (00010868) > [D3D] Reducing mouse lag by setting frame latency to 1...
+10:03:08:806 (00010868) > [D3D] D3D reports feature level 11 is supported.
+10:03:08:806 (00010868) > [D3D] NVAPI Depth Bounds Test supported.
+10:03:08:815 (00010868) > [D3D] D3D Adapter Information:
+10:03:08:815 (00010868) > [D3D] Adapter Description: Intel(R) UHD Graphics
+10:03:08:815 (00010868) > [D3D] VendorID: 8086
+10:03:08:815 (00010868) > [D3D] DeviceID: 9ba4
+10:03:08:815 (00010868) > [D3D] Revision: 5
+10:03:08:843 (00010868) > [D3D] Reducing mouse lag by setting frame latency to 1...
+10:03:08:843 (00010868) > [D3D] D3D reports feature level 11 is supported.
+10:03:08:843 (00010868) > [D3D] D3D reports no hardware multiple command list support.
+10:03:08:846 (00010868) > [D3D] [Render] Adapter I has no outputs!
+10:03:08:846 (00010868) > [D3D] D3D Adapter Information:
+10:03:08:846 (00010868) > [D3D] Adapter Description: Microsoft Basic Render Driver
+10:03:08:846 (00010868) > [D3D] VendorID: 1414
+10:03:08:846 (00010868) > [D3D] DeviceID: 8c
+10:03:08:846 (00010868) > [D3D] Revision: 0
+10:03:08:851 (00010868) > [D3D] Reducing mouse lag by setting frame latency to 1...
+10:03:08:851 (00010868) > [D3D] D3D reports feature level 11 is supported.
+10:03:08:851 (00010868) > [D3D] D3D reports no hardware multiple command list support.
+10:03:08:851 (00010868) > [D3D] [Render] Adapter M has no outputs!
+10:03:08:851 (00010868) > [D3D] [Render] PCDX11DeviceManager constructor end
+10:03:27:478 (00010868) > [MultiCore] CPU count: logical = 8, cores = 4, physical = 1
+10:03:27:501 (00010868) > [D3D] D3D Adapter Information:
+10:03:27:501 (00010868) > [D3D] Adapter Description: NVIDIA GeForce GTX 1650
+10:03:27:501 (00010868) > [D3D] VendorID: 10de
+10:03:27:501 (00010868) > [D3D] DeviceID: 1f99
+10:03:27:501 (00010868) > [D3D] Revision: a1
+10:03:27:501 (00010868) > [D3D] NVidia hardware detected. Attemping to load NVAPI...
+10:03:27:501 (00010868) > [D3D] NVAPI loaded succesfully.
+10:03:27:501 (00010868) > [D3D] NvAPI_Stereo_IsEnabled() returned an error: -140
+10:03:27:577 (00010868) > [D3D] Reducing mouse lag by setting frame latency to 1...
+10:03:27:577 (00010868) > [D3D] D3D reports feature level 11 is supported.
+10:03:27:578 (00010868) > [D3D] NVAPI Depth Bounds Test supported.
+10:03:27:598 (00012180) > [D3D] CreateSwapChain() = 0
+10:03:27:598 (00012180) > [D3D] MakeWindowAssociation() = 0
+10:03:29:322 (00012180) > [D3D] SetFullscreenState() = 0
+10:03:29:466 (00010868) > [D3D] [Render] Using DirectX 11
+10:03:29:467 (00010868) > [File] Mounted PATCH3.000
+10:03:29:670 (00010868) > [SND] Initalizing audio...
+10:03:29:820 (00010868) > [SND] Audio device found. FMOD reports 2 driver(s).
+10:03:29:820 (00010868) > [SND] Audio Driver Name: Headphones (Rockerz 330)
+10:03:29:820 (00010868) > [SND] Speaker Mode: 2
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Probing swap chain to determine device version
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Probe complete, determined: D3D11
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Window subclass attached to 00060772
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Creating overlay widget manager
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Launching render process
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Overlay ready. Firing 1 OnReady handlers
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Tick thread starting...
+10:03:30:660 (00010868) > [Epic] LogEOSOverlay: Module snapshot failed. Retrying
+10:03:38:655 (00010868) > [Epic] LogEOS: Large tick time detected 30.1994
+10:03:38:656 (00010868) > [Epic] LogEOS: Updating Platform SDK Config, Time: 30.199389
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000001 (steam id=208790)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000002 (steam id=208791)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000004 (steam id=208792)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000008 (steam id=208793)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208794)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208795)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208796)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208797)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208798)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208799)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 1 - 0x00000000 (steam id=208800)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00000400 (steam id=208801)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00000800 (steam id=208802)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00001000 (steam id=208803)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00002000 (steam id=208804)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00004000 (steam id=208805)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00100000 (steam id=208806)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00200000 (steam id=208807)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x00400000 (steam id=208808)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 2 - 0x10000000 (steam id=208815)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 3 - 0x00000001 (steam id=208809)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 3 - 0x00000002 (steam id=208817)
+10:03:38:660 (00010868) > [Info] [DLC] mounted pack 3 - 0x00000004 (steam id=208818)
+10:03:38:842 (00010868) > [Info] [DLC] mounted DLC\PACK8.000 (steam id=208812, pack id=8)
+10:03:38:842 (00010868) > [Info] [DLC] mounted DLC\PACK4.000 (steam id=208810, pack id=4)
+10:03:38:842 (00010868) > [Info] [DLC] mounted DLC\PACK5.000 (steam id=208811, pack id=5)
+10:03:38:842 (00010868) > [Info] [DLC] mounted DLC\PACK6.000 (steam id=208814, pack id=6)
+10:03:38:843 (00010868) > [Info] [DLC] mounted DLC\PACK7.000 (steam id=208813, pack id=7)
+10:03:39:204 (00010868) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+10:03:39:204 (00010868) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+10:03:39:204 (00010868) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+10:03:39:204 (00010868) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+10:03:42:409 (00010868) > [Info] OLWebServiceClient [Status:200] [DownloadEvent:Finished] [HttpError:OK]
+10:03:42:672 (00010868) > [Epic] LogEOS: SDK Config Platform Update Request Successful, Time: 34.201263
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Start Session (User: ...)
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: SDKOverlayComponent.Init <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayLoaded <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.FactoryDetour <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapchainDetour <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.ObserveBrowserStatus <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterKeyListener <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.GraphicsDeviceCreated <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.OverlayInitialized <Redacted>
+10:03:42:674 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.LaunchRenderProcess <Redacted>
+10:03:42:675 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
+10:03:42:675 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.SwapChainCreated <Redacted>
+10:03:42:675 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:42:675 (00010868) > [Epic] WARNING: LogEOSAnalytics: EOS SDK Analytics disabled for route [1].
+10:03:42:676 (00010868) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+10:03:42:676 (00010868) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+10:03:42:677 (00010868) > [Epic] LogEOS: Updating Product SDK Config, Time: 34.216488
+10:03:42:677 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.RegisterJSBindings <Redacted>
+10:03:43:157 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:43:173 (00010868) > [Epic] LogEOSConnect: ConnectClientAuthTask Success
+10:03:43:188 (00010868) > [Epic] LogEOSAnalytics: Start Session (User: ...)
+10:03:43:981 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:43:996 (00010868) > [Epic] LogEOS: SDK Config Product Update Request Successful, Time: 35.524086
+10:03:43:997 (00010868) > [Epic] LogEOSP2P: Using Port Range 7777-7876 for P2P traffic
+10:03:43:997 (00010868) > [Epic] LogEOSP2P: UpdateConfiguration RtcCertificateMaxLifetimeMilliseconds not specified, using default value 10800000
+10:03:43:997 (00010868) > [Epic] LogEOS: SDK Config Data - Watermark: 968253146
+10:03:43:997 (00010868) > [Epic] LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 35.524086, Update Interval: 356.053955
+10:03:44:691 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:44:707 (00010868) > [Epic] LogEOSAuth: UserAuth Success
+10:03:44:707 (00010868) > [Epic] LogEOSAuth: NewUserToken: User ClientId: xyz...Irj AccountId: 8f5...d80 Access[Expires: 2023.07.14-06.33.44 Remaining: 7200.22] Refresh[Expires: 2023-07-14T12:33:44.228Z Remaining: 28800.23] State: Valid
+10:03:44:723 (00010868) > [Epic] LogEOSAuth: GenerateUserAuth success
+10:03:45:300 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:45:314 (00010868) > [Epic] LogEOSAuth: login/queryuserinfo success
+10:03:45:315 (00010868) > [Epic] LogEOSUI: Social Overlay: 'leaderboards' feature disabled by overlay.
+10:03:45:318 (00010868) > [Epic] LogEOSAuth: Login Tasks Complete: 0
+10:03:45:361 (00010868) > [Epic] LogEOSUI: Social Overlay: Loading: <Redacted>
+10:03:45:361 (00010868) > [Epic] LogEOSUI: Social Overlay: Initital DisplaySettings{ Visible(FALSE) ExclusiveInput(FALSE) HitBox(unset) }
+10:03:45:361 (00010868) > [Epic] LogEOSOverlay: Overlay loading <Redacted> in instance 386945337637385404
+10:03:45:361 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.LoadURL <Redacted>
+10:03:45:391 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.LoadURL <Redacted>
+10:03:45:391 (00010868) > [Epic] LogEOSOverlay: LoadURL result received. [Success=1, BrowserID=1]
+10:03:45:391 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:45:407 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.LoadURLResult <Redacted>
+10:03:45:407 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.BrowserCreated <Redacted>
+10:03:45:407 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.ConnectBrowserAndRenderProcesses <Redacted>
+10:03:45:452 (00010868) > [Epic] LogEOSOverlay: Browser status 0 received for browser 1
+10:03:45:482 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
+10:03:47:050 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:47:067 (00010868) > [Epic] LogEOSMessaging: Attempting connection to Stomp. LocalUserId=[000...83c] Url=[<Redacted>]
+10:03:47:357 (00010868) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing player data for (8f5...d80) [state: 0, force: player? false, definitions? false].
+10:03:48:036 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:48:055 (00010868) > [Epic] LogEOSP2P: Applying updated RTC Configuration
+10:03:48:403 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:49:153 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.JavascriptContextCreated <Redacted>
+10:03:49:454 (00010868) > [Epic] LogEOSPresence: Updating Presence to Online. LocalUserId=[8f5...d80] RichText=[]
+10:03:49:686 (00010868) > [Epic] LogEOSOverlay: Browser status 1 received for browser 1
+10:03:49:686 (00010868) > [Epic] LogEOSUI: Social Overlay: Initial setup of friends overlay: EOS_Success
+10:03:49:687 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.RenderProcess.FrameLoadEnd <Redacted>
+10:03:49:687 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.BrowserStatus <Redacted>
+10:03:49:687 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:687 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:721 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:772 (00010868) > [Epic] LogEOSAnalytics: Record Event: eos.social.heartbeat <Redacted>
+10:03:49:773 (00010868) > [Epic] LogEOSAnalytics: Record Event: eos.social.appstartup <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:774 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:788 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:804 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:820 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+10:03:49:853 (00010868) > [Epic] LogEOSAnalytics: Record Event: eos.social.statechange <Redacted>
+10:03:49:854 (00010868) > [Epic] LogEOSAnalytics: Record Event: eos.social.sdk.time_to_first_payload <Redacted>
+10:03:49:854 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:854 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.ExecuteJavascriptFunction <Redacted>
+10:03:49:854 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:854 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.InvokeJavascriptCallback <Redacted>
+10:03:49:871 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+10:03:49:887 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EvaluateJS <Redacted>
+10:03:49:887 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+10:03:49:903 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.MessageHandler.EvaluateJavascriptResult <Redacted>
+10:03:50:237 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:50:803 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:50:820 (00010868) > [Epic] LogEOSUI: Social Overlay: Achievements data incomplete, starting next refresh for (8f5...d80).
+10:03:50:820 (00010868) > [Epic] LogEOSUI: Social Overlay: Achievements refreshing definition data for (8f5...d80) [state: 2, force: player? false, definitions? false].
+10:03:51:137 (00010868) > [Epic] LogEOSPresence: Setting presence to offline. LocalUserId=[8f5...d80]
+10:03:51:405 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:53:072 (00010868) > [Epic] LogEOSAnalytics: Record Event: EOSSDK.HTTP.Complete <Redacted>
+10:03:53:072 (00010868) > [Epic] LogEOSPresence: Setting presence to offline complete, LocalUserId=[8f5...d80], Result=EOS_Success
+10:03:53:140 (00010868) > [Epic] LogEOSOverlay: Closing browser [InstanceId=386945337637385404, BrowserId=1, TabId=0]
+10:03:53:140 (00010868) > [Epic] LogEOSAuth: Sending Kill Auth request. url=<Redacted>
+10:03:53:141 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.CloseBrowser <Redacted>
+10:03:53:141 (00010868) > [Epic] LogEOSAnalytics: Record Event: Overlay.ClientApi.EjectInstance <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:53:161 (00010868) > [Epic] LogEOSAnalytics: Record Event: UsageMetric <Redacted>
+10:03:56:102 (00010868) > [Epic] WARNING: LogHttp: 3A4FEB30: request was cancelled
+10:03:56:102 (00010868) > [Epic] WARNING: LogHttp: 3A501630: request was cancelled
+10:03:56:102 (00010868) > [Epic] WARNING: LogHttp: 3A504600: request was cancelled
+10:03:56:102 (00010868) > [Epic] WARNING: LogHttp: 3A4FF980: request was cancelled
+10:03:56:119 (00010868) > [Info] Exiting the game.

@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@drawable/register"
     tools:context=".RegisterPage">
-
     <TextView
         android:id="@+id/hi"
         android:layout_width="match_parent"
@@ -93,19 +93,19 @@
         android:hint="Mobile"
         android:layout_marginLeft="30dp"
         />
-       <Button
-           android:id="@+id/Registerr"
-           android:layout_width="300dp"
-           android:layout_height="60dp"
-           android:background="@drawable/buttonshape"
-           android:layout_below="@id/mobile"
-           android:layout_marginTop="20dp"
-           android:layout_marginLeft="30dp"
-           android:backgroundTint="@color/black"
-           android:text="Register"
-           android:textSize="20dp"
-           android:textStyle="bold"
-           />
+    <Button
+        android:id="@+id/Registerr"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonshape"
+        android:layout_below="@id/mobile"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:backgroundTint="@color/black"
+        android:text="Register"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        />
     <View
         android:id="@+id/vie"
         android:layout_width="80dp"
@@ -114,26 +114,26 @@
         android:background="@color/white"
         android:layout_marginLeft="30dp"
         android:layout_height="1dp"/>
-<TextView
-    android:id="@+id/or"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="or continue with"
-    android:textColor="@color/white"
-    android:textStyle="italic"
-    android:layout_below="@+id/Registerr"
-    android:layout_marginTop="28dp"
-    android:textSize="15dp"
-    android:layout_marginLeft="122dp"
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or continue with"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_below="@+id/Registerr"
+        android:layout_marginTop="28dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="122dp"
 
-    />
+        />
     <View
         android:id="@+id/view"
         android:layout_width="80dp"
         android:layout_below="@+id/Registerr"
         android:layout_marginTop="40dp"
         android:background="@color/white"
-      android:layout_marginLeft="240dp"
+        android:layout_marginLeft="240dp"
         android:layout_height="1dp"/>
 
     <Button
@@ -187,4 +187,5 @@
         android:layout_toRightOf="@+id/already"
         android:layout_marginLeft="10dp"
         />
+
 </RelativeLayout>

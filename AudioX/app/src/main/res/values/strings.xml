@@ -4,6 +4,9 @@
     <string name="favourite">favourite artists. </string>
     <string name="create">Get started</string>
     <string name="already">I already have an account</string>
+    <string name="dont">Dont have a jioSaavn account yet?</string>
+    <string name="welcome">Welcome to JioSaavn.</string>
+    <string name="Log">Log in or sign up with your email address.</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

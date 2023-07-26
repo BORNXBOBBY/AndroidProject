@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff8700"
+        tools:ignore="MissingConstraints">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:text="Google Authentication  "
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </androidx.appcompat.widget.Toolbar>
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/ccp"
+        android:background="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        app:ccp_defaultNameCode="IND" />
+
+    <EditText
+        android:layout_marginTop="90dp"
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ccp"
+
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/sendOtp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/phone_number"
+        android:layout_marginTop="30dp"
+        android:hint="SEND_OTP"
+        android:layout_marginLeft="75dp"
+        android:textColorHint="@color/white"
+        />
+
+
+
+
+    <EditText
+        android:layout_marginTop="70dp"
+        android:id="@+id/otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+
+        android:layout_below="@id/sendOtp"
+        />
+    <Button
+        android:id="@+id/verifyOtp"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/otp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="75dp"
+        android:hint="VERIFY"
+        android:textColorHint="@color/white"
+        />
+
+    <RelativeLayout
+        android:id="@+id/textViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolBar"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="20dp"
+        >
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:autofillHints="C"
+            android:clickable="true" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

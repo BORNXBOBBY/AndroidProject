@@ -69,7 +69,7 @@
         <ImageView
             android:layout_width="140dp"
             android:layout_height="80dp"
-            android:src="@drawable/b"
+            android:src="@drawable/arjitsingh"
             android:layout_gravity="center"
             />
 
@@ -79,7 +79,7 @@
         android:id="@+id/john"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="John"
+        android:text="Arjit singh"
         android:layout_below="@+id/recent"
         android:layout_marginTop="20dp"
         android:textStyle="bold"
@@ -90,7 +90,7 @@
         android:id="@+id/artist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Artist"
+        android:text="Singer"
         android:layout_below="@+id/john"
         android:textStyle="bold"
         android:layout_marginLeft="80dp"
@@ -127,7 +127,7 @@
         android:id="@+id/Marrie"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="marrie"
+        android:text="Taylor swift"
         android:layout_below="@+id/artist"
         android:layout_marginTop="25dp"
         android:textStyle="bold"
@@ -167,7 +167,7 @@
         <ImageView
             android:layout_width="140dp"
             android:layout_height="80dp"
-            android:src="@drawable/b"
+            android:src="@drawable/armanmalik"
             android:layout_gravity="center"
             />
 
@@ -176,7 +176,7 @@
         android:id="@+id/Days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="3000Days"
+        android:text="Armanmalik"
         android:layout_below="@+id/artist1"
         android:layout_marginTop="25dp"
         android:textStyle="bold"
@@ -188,7 +188,7 @@
         android:id="@+id/artist2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Artist"
+        android:text="Singer"
         android:layout_below="@+id/Days"
         android:textStyle="bold"
         android:layout_marginLeft="80dp"
@@ -215,7 +215,7 @@
         <ImageView
             android:layout_width="140dp"
             android:layout_height="80dp"
-            android:src="@drawable/taylor"
+            android:src="@drawable/anniemarrie"
             android:layout_gravity="center"
             />
 
@@ -224,7 +224,7 @@
         android:id="@+id/together"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Together"
+        android:text="Annie marrie"
         android:layout_below="@+id/artist2"
         android:layout_marginTop="25dp"
         android:textStyle="bold"
@@ -236,7 +236,7 @@
         android:id="@+id/artist3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Artist"
+        android:text="Singer"
         android:layout_below="@+id/together"
         android:textStyle="bold"
         android:layout_marginLeft="80dp"

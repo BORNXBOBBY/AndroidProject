@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699240172511",
+    "project_id": "storagefilesgetsetdata",
+    "storage_bucket": "storagefilesgetsetdata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699240172511:android:f8afdd4dd8f08d7abfd26a",
+        "android_client_info": {
+          "package_name": "com.example.datagetsetfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699240172511-1n1vmr5mehmp85qhh1pe0kfdomft9de9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyjvR6y5cQR9XFNnRoUG5qoIjHh-17Mvo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699240172511-1n1vmr5mehmp85qhh1pe0kfdomft9de9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

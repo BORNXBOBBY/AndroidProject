@@ -9,4 +9,7 @@
     <color name="transparent">#00000000</color>
     <color name="green">#00FF0A</color>
     <color name="normalDark">#292E29</color>
+    <color name="normalwhite">#D1DFD1</color>
+    <color name="sky">#01DDC9</color>
+
 </resources>

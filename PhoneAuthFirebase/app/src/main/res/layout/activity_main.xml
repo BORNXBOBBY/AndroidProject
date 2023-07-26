@@ -5,21 +5,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edugaon"
+        android:textSize="40dp"
+        android:textColor="@color/orange"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        />
     <com.hbb20.CountryCodePicker
-        android:layout_marginTop="70dp"
         android:id="@+id/ccp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:ccp_defaultNameCode="IND"
-        />
+        android:layout_marginTop="90dp"
+        app:ccp_defaultNameCode="IND" />
+
     <EditText
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="90dp"
         android:id="@+id/phone_number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_toRightOf="@id/ccp"
+        android:backgroundTint="@color/white"
         android:inputType="number"
         />
     <Button
@@ -27,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_below="@id/phone_number"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:hint="SEND_OTP"
         android:textColorHint="@color/white"
         />
@@ -40,8 +52,8 @@
         android:id="@+id/otp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:inputType="number"
+        android:backgroundTint="@color/white"
         android:layout_below="@id/sendOtp"
         />
     <Button

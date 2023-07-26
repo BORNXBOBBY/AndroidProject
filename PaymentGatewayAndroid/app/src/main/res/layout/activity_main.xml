@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:textSize="30sp"
+            android:text="RazorPay"
+            android:textAlignment="center"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your name"
+            android:layout_margin="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/name_inp"
+                android:inputType="text"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Email"
+            android:layout_margin="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/email_inp"
+                android:inputType="textEmailAddress"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your Phone Number"
+            android:layout_margin="20dp"
+            android:maxLength="10"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/phone_inp"
+                android:inputType="number"
+
+                android:autoSizeMinTextSize="15sp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter amount"
+            android:layout_margin="20dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/amount_inp"
+                android:inputType="number"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.chip.Chip
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="submit"
+            android:id="@+id/submit_btn"
+            android:textAlignment="center"
+
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

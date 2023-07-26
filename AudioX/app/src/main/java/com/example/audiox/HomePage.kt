@@ -12,7 +12,7 @@ class HomePage : AppCompatActivity() {
         val create = findViewById<TextView>(R.id.sign)
         val login = findViewById<TextView>(R.id.CreateButton)
         login.setOnClickListener {
-            startActivity(Intent(this, RegisterPage::class.java))
+            startActivity(Intent(this, jiosavvanSignupPage::class.java))
         }
             create.setOnClickListener {
                 startActivity(Intent(this, SignIn::class.java))

@@ -42,10 +42,10 @@ class GoogleActivity : AppCompatActivity() {
         if (ActivityRequestCode == requestcode) {
             val task = GoogleSignIn.getSignedInAccountFromIntent(data)
             task.addOnSuccessListener { it ->
-                val credencial = GoogleAuthProvider.getCredential(it.idToken, null)
-                auth.signInWithCredential(credencial)
+                val credential = GoogleAuthProvider.getCredential(it.idToken, null)
+                auth.signInWithCredential(credential)
                     .addOnSuccessListener {
-                        Toast.makeText(this, "" + it.user?.displayName+" Succesfull", Toast.LENGTH_SHORT)
+                        Toast.makeText(this, "" + it.user?.displayName+" Successful", Toast.LENGTH_SHORT)
                             .show()
                     }
                     .addOnFailureListener {
@@ -56,7 +56,5 @@ class GoogleActivity : AppCompatActivity() {
                     Toast.makeText(this, "" + it.message, Toast.LENGTH_SHORT).show()
                 }
         }
-
-
     }
 }
