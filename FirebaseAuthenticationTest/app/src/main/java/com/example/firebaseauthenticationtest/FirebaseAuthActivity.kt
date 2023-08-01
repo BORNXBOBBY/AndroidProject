@@ -84,6 +84,7 @@ class FirebaseAuthActivity : AppCompatActivity() {
         var email = findViewById<EditText>(R.id.email)
         var pass = findViewById<EditText>(R.id.password)
         var button = findViewById<Button>(R.id.submit)
+
         button.setOnClickListener {
             auth.createUserWithEmailAndPassword(email.text.toString(), pass.text.toString())
                 .addOnSuccessListener {

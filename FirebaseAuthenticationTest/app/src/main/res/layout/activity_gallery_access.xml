@@ -37,6 +37,15 @@
 
 
         />
+<!--    <de.hdodenhof.circleimageview.CircleImageView-->
+<!--        android:id="@+id/image"-->
+<!--        app:civ_border_width="1dp"-->
+<!--        app:civ_border_color="#EFE9E9"-->
+<!--        android:layout_width="120dp"-->
+<!--        android:layout_height="120dp"-->
+<!--       android:layout_marginLeft="150dp"-->
+<!--        android:layout_marginTop="40dp"-->
+<!--        />-->
 
     <EditText
         android:id="@+id/name"

@@ -5,4 +5,6 @@
     <color name="normalDark">#292E29</color>
     <color name="green">#00FF0A</color>
     <color name="yellow">#FFC801</color>
+    <color name="blue">#089BE6</color>
+    <color name="teal_700">#FF018786</color>
 </resources>
