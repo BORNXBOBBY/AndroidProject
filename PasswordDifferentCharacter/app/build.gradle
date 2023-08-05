@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.mapingfirebase'
+    namespace 'com.example.passworddifferentcharacter'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.mapingfirebase"
+        applicationId "com.example.passworddifferentcharacter"
         minSdk 22
         targetSdk 33
         versionCode 1
@@ -41,9 +41,4 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
-
-    // map dependency
-    implementation 'com.google.android.gms:play-services-maps:18.1.0'
-    implementation 'com.google.android.gms:play-services-location:21.0.1'
-
 }
