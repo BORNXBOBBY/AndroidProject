@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/jiosavan"
+        android:icon="@drawable/spotify"
         android:label="@string/app_name"
-        android:roundIcon="@drawable/jiosavan"
+        android:roundIcon="@drawable/spotify"
         android:supportsRtl="true"
         android:theme="@style/Theme.AudioX"
         tools:targetApi="31">
