@@ -17,14 +17,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="310dp"
-        android:layout_height="200dp"
-        android:background="@mipmap/ic_launcher"
-        android:src="@drawable/baseline_close_24"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="50dp"
-        tools:layout_editor_absoluteY="1dp" />
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="310dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:background="@mipmap/ic_launcher"-->
+<!--        android:src="@drawable/baseline_close_24"-->
+<!--        tools:ignore="MissingConstraints"-->
+<!--        tools:layout_editor_absoluteX="50dp"-->
+<!--        tools:layout_editor_absoluteY="1dp" />-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

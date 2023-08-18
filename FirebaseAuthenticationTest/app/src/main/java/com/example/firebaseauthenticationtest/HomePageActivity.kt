@@ -15,11 +15,11 @@ class HomePageActivity : AppCompatActivity() {
         val navbar=findViewById<BottomNavigationView>(R.id.bottomNavigation)
 
         val logoutBtn=findViewById<Button>(R.id.logout)
-        LoadFragment(Home())
+        LoadFragment(HomeFragment())
         navbar.setOnItemSelectedListener {
             when(it.itemId){
-                R.id.home->LoadFragment(Home())
-                R.id.search->LoadFragment(search())
+                R.id.home->LoadFragment(HomeFragment())
+                R.id.search->LoadFragment(SearchFragment())
                 R.id.profile->LoadFragment(Profile())
             }
             true

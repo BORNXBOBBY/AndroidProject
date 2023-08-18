@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:id="@+id/product_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/product_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            />
+
+        <RelativeLayout
+            android:id="@+id/first_product"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/product_head"
+            >
+            <ImageView
+                android:id="@+id/people_product"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/black"
+                android:src="@drawable/cs"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CS Product"
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:layout_below="@+id/people_product"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/second_product"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/first_product"
+            android:layout_below="@+id/product_head"
+            >
+            <ImageView
+                android:id="@+id/home_product"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/black"
+                android:src="@drawable/shirt"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shirt "
+                android:layout_marginLeft="10dp"
+                android:textSize="18dp"
+                android:layout_below="@+id/home_product"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_View"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/bottom_menu"
+        android:fitsSystemWindows="true"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -3,10 +3,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
-    tools:context=".search">
+    tools:context=".SearchFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <ImageView
+        android:id="@+id/shirt"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/spotify"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="40dp"
+        />
 
 </FrameLayout>

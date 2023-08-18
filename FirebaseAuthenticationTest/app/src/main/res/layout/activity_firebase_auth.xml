@@ -6,15 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    tools:context=".FirebaseAuthActivity">
-
-    <com.hbb20.CountryCodePicker
-        android:id="@+id/ccp"
-        android:background="@color/white"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="90dp"
-        app:ccp_defaultNameCode="IND" />
+    tools:context=".FirebaseAuthActivity">    <com.hbb20.CountryCodePicker
+    android:id="@+id/ccp"
+    android:background="@color/white"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="90dp"
+    app:ccp_defaultNameCode="IND" />
 
     <EditText
         android:layout_marginTop="90dp"
@@ -58,16 +56,16 @@
         android:hint="VERIFY"
         android:textColorHint="@color/white"
         />
+
     <com.google.android.gms.common.SignInButton
         android:id="@+id/sign_in_button"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/verifyOtp"
-        android:layout_marginTop="20dp"
         android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
         android:autofillHints="C"
-        android:clickable="true"
-       />
+        android:clickable="true" />
 
     <EditText
         android:id="@+id/email"
@@ -99,25 +97,26 @@
 
         />
 
-    <Button
-        android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/submit"
-        android:layout_marginLeft="230dp"
-      android:layout_marginTop="-20dp"
-        android:text="Login"
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/submit"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="-20dp"
+            android:text="Login"
 
-        />
-    <Button
-        android:id="@+id/gallery"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/submit"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="10dp"
-        android:text="Gallery"
+    />
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/submit"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:text="Gallery"
 
-        />
+            />
+
 
 </RelativeLayout>

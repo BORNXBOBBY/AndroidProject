@@ -39,6 +39,12 @@ private var storageRef = Firebase.storage.reference
 //        }
 //
 //    }
+
+
+        val SIGNUP = findViewById<Button>(R.id.SIGNUP)
+        SIGNUP.setOnClickListener {
+            startActivity(Intent(this, SignupPageActivity::class.java))
+        }
 //
 //    private val changeImage =
 //        registerForActivityResult(

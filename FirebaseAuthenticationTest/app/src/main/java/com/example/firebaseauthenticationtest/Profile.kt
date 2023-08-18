@@ -1,6 +1,7 @@
 package com.example.firebaseauthenticationtest
 
 import android.content.ContentValues
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -11,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
@@ -22,17 +24,17 @@ class  Profile : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        val  roeView =inflater.inflate(R.layout.fragment_profile, container, false)
+// Inflate the layout for this fragment
+        val roeView = inflater.inflate(R.layout.fragment_profile, container, false)
         val db = FirebaseFirestore.getInstance()
         val auth = FirebaseAuth.getInstance().currentUser?.uid
-        val gallaryAccess = roeView .findViewById<ImageView>(R.id.images)
-        val name = roeView .findViewById<EditText>(R.id.names)
-        val number =roeView . findViewById<EditText>(R.id.numbers)
-        val email = roeView .findViewById<EditText>(R.id.emails)
+        val gallaryAccess = roeView.findViewById<ImageView>(R.id.images)
+        val name = roeView.findViewById<EditText>(R.id.names)
+        val number = roeView.findViewById<EditText>(R.id.numbers)
+        val email = roeView.findViewById<EditText>(R.id.emails)
 
 
-        val button =roeView . findViewById<Button>(R.id.edit)
+        val button = roeView.findViewById<Button>(R.id.edit)
 
         button.setOnClickListener {
             startActivity(Intent(requireContext(), GalleryAccess::class.java))
@@ -70,8 +72,8 @@ class  Profile : Fragment() {
                     Log.e(ContentValues.TAG, "Error adding document", e)
                 }
         }
-        return  roeView
+        return roeView
     }
 
 
-    }
+}
