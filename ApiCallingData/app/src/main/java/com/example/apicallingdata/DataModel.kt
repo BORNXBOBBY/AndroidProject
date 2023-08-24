@@ -1,10 +1,12 @@
 package com.example.apicallingdata
 
 data class DataModel(
-    val uID: Long,
+
+    val roll: String,
     val name: String,
-    val number: String,
-    val image: String,
-    val bio: String
+    val age: String,
+    val email: String,
+    val course: String,
+    val contact: String
 
 )

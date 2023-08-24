@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 
 interface Apicalling {
-    @GET("users")
+    @GET("customer")
 //@POST("users")
 
     fun getUser(): Observable<List<DataModel>>
@@ -16,7 +16,7 @@ interface Apicalling {
             val retrofit= Retrofit.Builder()
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .addConverterFactory(GsonConverterFactory.create())
-                .baseUrl("https://demo4657545.mockable.io/")
+                .baseUrl("https://demo1796856.mockable.io/")
                 .build()
             return retrofit.create(Apicalling::class.java)
 

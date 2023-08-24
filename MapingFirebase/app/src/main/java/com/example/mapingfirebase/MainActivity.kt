@@ -31,9 +31,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        places.add(Place("patna", latLng = LatLng(-23.23, 322.32), LatLng(-253.2323, 32.32), 4.5F))
-        places.add(Place("chapra", latLng = LatLng(-50.23, 70.32), LatLng(-233.2323, 324.32), 4.5F))
-        places.add(Place("banka", latLng = LatLng(-23.23, 32.32), LatLng(-23.2323, 32.32), 4.5F))
+        places.add(Place("patna", latLng = LatLng(25.59, 85.13), LatLng(25.5941, 85.13), 4.5F))
+        places.add(Place("chapra", latLng = LatLng(25.77, 84.74), LatLng(25.779566, 84.749886), 4.5F))
+        places.add(Place("banka", latLng = LatLng(24.89, 86.92), LatLng(24.5333, 86.55), 4.5F))
+        places.add(Place("vaishali", latLng = LatLng(25.63, 85.35), LatLng(25.6838, 85.35), 4.5F))
+        places.add(Place("sonepur", latLng = LatLng(25.69, 85.16), LatLng(25.6981, 85.16), 4.5F))
         val currentLocationFab = findViewById<FloatingActionButton>(R.id.currentLocationFab)
         fusedLocationClient = LocationServices.getFusedLocationProviderClient(this)
         currentLocationFab.setOnClickListener{
@@ -182,6 +184,9 @@ class MainActivity : AppCompatActivity() {
                 PolylineOptions().add(
                     places[places.lastIndex - 2].latLng,
                     places[places.lastIndex - 1].latLng,
+                    places[places.lastIndex - 3].latLng,
+                    places[places.lastIndex - 4].latLng,
+                    places[places.lastIndex - 5].latLng,
                     places[places.lastIndex].latLng,
                     places[places.lastIndex -2].latLng
 
