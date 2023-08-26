@@ -117,7 +117,7 @@ class AddRecordActivity : AppCompatActivity() {
     }
     private fun pickFromCamera(){
       val values = ContentValues()
-        values.put(MediaStore.Images.Media.TITLE,"Images Title")
+         values.put(MediaStore.Images.Media.TITLE,"Images Title")
         values.put(MediaStore.Images.Media.DESCRIPTION,"Images Description")
 
         imageUri = contentResolver.insert(MediaStore.Images.Media.EXTERNAL_CONTENT_URI)

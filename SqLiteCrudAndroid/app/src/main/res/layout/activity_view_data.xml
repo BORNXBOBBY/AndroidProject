@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:id="@+id/menu"
+    tools:context=".ViewDataActivity">
+
+
+    <HorizontalScrollView
+        android:layout_below="@id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="NotSibling">
+            <!-- Text view to get all name -->
+            <TextView
+                android:id="@+id/id"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:padding="5dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/NameView"
+                android:textAlignment="center"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:padding="5dp"
+                android:textColor="#000000"/>
+
+            <!-- Text view to get all ages -->
+            <TextView
+                android:id="@+id/emailView"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#000000"/>
+            <TextView
+
+                android:id="@+id/userIdView"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserId"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/passwordView"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/contactView"
+                android:textAlignment="center"
+                android:padding="5dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/deleteData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginHorizontal="55dp"
+        android:text="Delete Data "
+        android:layout_above="@id/updateDataBtn"
+        android:backgroundTint="#673AB7"/>
+    <Button
+        android:id="@+id/updateDataBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="35dp"
+        android:text="Update Data "
+        android:backgroundTint="#DA03A4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:hint="View Data"
+        android:textColor="@color/black"
+        android:backgroundTint="#2196F3"
+        android:padding="10dp"
+        android:layout_above="@id/deleteData"
+        android:layout_marginHorizontal="75dp"
+        tools:ignore="NotSibling" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add"
+        android:hint="Insert New Data"
+        android:textColor="@color/black"
+        android:backgroundTint="#D36F50"
+        android:padding="10dp"
+        android:layout_above="@id/view"
+        android:layout_marginHorizontal="85dp"
+        tools:ignore="NotSibling" />
+
+</RelativeLayout>
