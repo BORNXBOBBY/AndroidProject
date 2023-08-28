@@ -30,3 +30,4 @@ class DeleteDataActivity : AppCompatActivity() {
 
     }
 }
+
