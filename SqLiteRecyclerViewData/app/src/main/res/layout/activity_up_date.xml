@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpDateActivity">
+
+    <TextView
+        android:id="@+id/upDateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#EFB60D"
+        android:textColorHint="#ED0303"
+        android:layout_marginHorizontal="40dp"
+        />
+    <!--    <Button-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/edit"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_above="@id/upDateName"-->
+    <!--        android:hint="EDIT Data"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:backgroundTint="#FF0741"-->
+    <!--        android:padding="10dp"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginHorizontal="55dp"-->
+    <!--        />-->
+
+    <EditText
+        android:id="@+id/upDateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Name"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="40dp"
+        />
+    <EditText
+        android:id="@+id/upDateEmail"
+        android:layout_below="@id/upDateName"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email  Address"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        />
+    <EditText
+        android:id="@+id/upDateUserid"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User ID"
+        android:layout_below="@id/upDateEmail"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        />
+    <EditText
+        android:id="@+id/upDatePassword"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_below="@id/upDateUserid"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        />
+    <EditText
+        android:id="@+id/upDateContact"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Contact"
+        android:layout_below="@id/upDatePassword"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="40dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/upDate"
+        android:layout_below="@id/upDateContact"
+        android:hint="UpDate Data"
+        android:textColor="@color/black"
+        android:backgroundTint="#FF0741"
+        android:padding="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="55dp"
+        />
+
+    <Button
+        android:id="@+id/deleteData"
+        android:layout_width="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/upDate"
+        android:layout_marginEnd="20dp"
+        android:text="Delete Data "
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#CDDC39"/>
+
+
+</RelativeLayout>
