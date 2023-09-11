@@ -10,11 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e00b7e3-f887-4b1d-97a2-0066a631fe10" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AudioX/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AudioX/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SqLiteCrudAndroid/app/src/main/res/layout/activity_delete_data.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SqLiteCrudAndroid/app/src/main/res/layout/activity_delete_data.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SqLiteRecyclerViewData/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreadAndroid/app/src/main/java/com/example/threadandroid/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NestedRecyclerView-Kotlin" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedRecyclerView-Kotlin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Razorpaykotlinapi" beforeDir="false" afterPath="$PROJECT_DIR$/../Razorpaykotlinapi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practise_recycler_project" beforeDir="false" afterPath="$PROJECT_DIR$/../practise_recycler_project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
