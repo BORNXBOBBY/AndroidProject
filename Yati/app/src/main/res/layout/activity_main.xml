@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/nav_header_style">
+
+        <LinearLayout
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="20dp">
+
+            <TextView
+                android:id="@+id/profile_textView"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/profile_textview"/>
+
+<!--            <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                android:id="@+id/circle_imageView"-->
+<!--                android:layout_width="60dp"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:src="@drawable/ic_baseline_profile"/>-->
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginStart="10dp">
+
+                <TextView
+                    android:id="@+id/user_nameText"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:textSize="14sp"
+                    android:text="Vijay Kumar"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/user_points"
+                    android:layout_width="200dp"
+                    android:layout_height="20dp"
+                    android:textSize="12sp"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/earn_points"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/plus_bookingImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/ic_baseline_add"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <View
+        android:layout_marginTop="78dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.0"
+        android:background="@android:color/darker_gray"/>
+
+    <FrameLayout
+        android:layout_marginTop="80dp"
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navView">
+
+        <fragment
+            android:id="@+id/navigation_host"
+            app:defaultNavHost="true"
+            app:navGraph="@navigation/bottom_nav_graph"
+            android:name="androidx.navigation.fragment.NavHostFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </FrameLayout>
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.7"
+        android:background="@android:color/darker_gray"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navView"
+        app:menu="@menu/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="@color/colorWhite"
+        app:itemBackground="@color/colorBlack"
+        app:itemIconTint="@color/colorWhite"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

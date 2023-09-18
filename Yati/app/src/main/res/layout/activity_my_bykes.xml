@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MyBikesActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitleTextColor="@color/colorWhite"
+        app:title="@string/my_bikes_tittle"
+        app:titleTextColor="@color/colorWhite"
+        android:theme="@style/Widget.AppCompat.ActionBar"
+        android:background="@drawable/nav_header_style"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/myBike_has_notInformation_text"
+        android:layout_width="match_parent"
+        android:text="@string/not_information"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bike_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/bike_list_item"/>
+</LinearLayout>
+</LinearLayout>

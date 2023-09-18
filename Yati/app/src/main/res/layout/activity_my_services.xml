@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MyServicesActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/MyService_toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:subtitleTextColor="@color/colorWhite"
+            app:title="@string/my_service_tittle"
+            app:titleTextColor="@color/colorWhite"
+            android:theme="@style/Widget.AppCompat.ActionBar"
+            android:background="@drawable/nav_header_style"/>
+
+        <LinearLayout
+            android:layout_below="@id/MyService_toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/myService_has_not_information_text"
+            android:layout_width="match_parent"
+            android:text="@string/not_information"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:visibility="gone"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/service_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/service_list_itam" />
+
+        </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "543505316635",
+    "firebase_url": "https://yati-yamaha.firebaseio.com",
+    "project_id": "yati-yamaha",
+    "storage_bucket": "yati-yamaha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543505316635:android:5390bbe76d1618451071be",
+        "android_client_info": {
+          "package_name": "com.example.yati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543505316635-robhgfkj68ct40nlet1cpbt82j4v21up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-VL7vWn_M09Df7WK-lqVBXsninY83OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543505316635-robhgfkj68ct40nlet1cpbt82j4v21up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543505316635:android:c1c86e0707fa673e1071be",
+        "android_client_info": {
+          "package_name": "com.mobile.yati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543505316635-robhgfkj68ct40nlet1cpbt82j4v21up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3-VL7vWn_M09Df7WK-lqVBXsninY83OE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543505316635-robhgfkj68ct40nlet1cpbt82j4v21up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

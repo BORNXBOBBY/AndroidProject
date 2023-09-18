@@ -10,15 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="055046cd-067e-4f66-aed6-d6e804e33f5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../ThreadAndroid/app/src/main/java/com/example/threadandroid/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadCorotinesApiCall/app/src/main/java/com/example/threadcorotinesapicall/Apicalling.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ThreadCorotinesApiCall/app/src/main/java/com/example/threadcorotinesapicall/DataModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../NestedListViewAndroid/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedListViewAndroid/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../NestedRecyclerView-Kotlin" beforeDir="false" afterPath="$PROJECT_DIR$/../NestedRecyclerView-Kotlin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Razorpaykotlinapi" beforeDir="false" afterPath="$PROJECT_DIR$/../Razorpaykotlinapi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mockableApi/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mockableApi/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mockableApi/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mockableApi/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mockableApi/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mockableApi/app/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practise_recycler_project" beforeDir="false" afterPath="$PROJECT_DIR$/../practise_recycler_project" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,17 +43,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="CallRecordAndroid.app.main" />

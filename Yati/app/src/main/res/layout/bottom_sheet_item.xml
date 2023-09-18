@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="20dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/close_dialog"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_dialog_close_light"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/openCamera"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Take Picture"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"/>
+        <TextView
+            android:id="@+id/openGallery"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="16sp"
+            android:text="Gallery"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_vertical"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBlack"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

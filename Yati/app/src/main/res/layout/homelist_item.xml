@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    app:cardCornerRadius="18dp"
+    android:layout_marginLeft="24dp"
+    android:layout_marginRight="24dp"
+    android:layout_marginTop="30dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    android:layout_marginBottom="22dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:layout_height="400dp"
+        android:src="@drawable/type_others"
+        android:id="@+id/image_view"
+        android:layout_marginTop="0dp"
+        android:scaleType="fitStart"/>
+
+    <LinearLayout
+        android:layout_marginTop="270dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="44sp"
+            android:text="100"
+            android:textAlignment="center"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/point_text"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:textAlignment="center"
+            android:text="Coupon"
+            android:id="@+id/invite_text"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/spread_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            android:textColor="@color/colorBlack"
+            android:text="This is for testing"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+  </androidx.cardview.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:onClick="keyboardClose"
+    android:layout_marginTop="15dp"
+    tools:context=".activities.BookServiceActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/bookService_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitleTextColor="@color/colorWhite"
+        app:title="@string/book_service_tittle"
+        app:titleTextColor="@color/colorWhite"
+        android:theme="@style/Widget.AppCompat.ActionBar"
+        android:background="@drawable/nav_header_style"/>
+
+    <ScrollView
+        android:layout_below="@id/bookService_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#a8a8a8">
+
+                    <EditText
+                        android:hint="@string/enter_bike_name"
+                        android:id="@+id/bykeName_editText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorWhite"
+                        android:backgroundTint="@color/colorWhite"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/colorWhite" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <TextView
+                    android:layout_marginTop="16dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:textColor="#a8a8a8"
+                    android:text="@string/preferred_data_and_time"
+                    android:layout_marginStart="2dp" />
+
+                <RelativeLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="3dp">
+
+                    <LinearLayout
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:layout_marginEnd="5sp"
+                        android:layout_marginRight="5sp">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_baseline_calendar_icon"/>
+
+                        <TextView
+                            android:id="@+id/datePicker_field"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorWhite"
+                            android:layout_marginStart="10sp"
+                            android:textSize="16sp"
+                            android:text="@string/select_date"
+                            android:layout_marginLeft="10sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_alignParentRight="true"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:gravity="center_vertical"
+                        android:background="@drawable/border"
+                        android:orientation="horizontal"
+                        android:layout_alignParentEnd="true">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/ic_baseline_access_time"/>
+
+
+                        <TextView
+                            android:id="@+id/timePicker_feild"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="16sp"
+                            android:layout_marginStart="10dp"
+                            android:text="@string/select_time"
+                            android:layout_marginLeft="10dp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_marginTop="16dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/service_type"
+                        android:textColor="#a8a8a8"
+                        android:textSize="12sp"
+                        android:layout_marginStart="2dp" />
+
+                    <androidx.appcompat.widget.AppCompatSpinner
+                        android:id="@+id/spinner_typeService"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+
+
+                </LinearLayout>
+<!--                <CheckBox-->
+<!--                    android:id="@+id/pickUp_checkBox"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="40dp"-->
+<!--                    android:textColor="@color/colorWhite"-->
+<!--                    android:textColorHint="@color/colorWhite"-->
+<!--                    android:buttonTint="@color/colorWhite"-->
+<!--                    android:text="@string/pick_up_my_vehicale"/>-->
+
+                <LinearLayout
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="#a8a8a8">
+
+                        <EditText
+                            android:hint="@string/feedback_editText"
+                            android:id="@+id/instruction_editText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/colorWhite"
+                            android:backgroundTint="@color/colorWhite"
+                            android:inputType="textEmailAddress"
+                            android:textColor="@color/colorWhite" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_marginTop="180dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:id="@+id/saveButton_bookService"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/button_style"
+                android:textStyle="normal"
+                android:text="@string/save_button" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.VouchersActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/vouchers_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitleTextColor="@color/colorWhite"
+        app:title="Vouchers"
+        app:titleTextColor="@color/colorWhite"
+        android:theme="@style/Widget.AppCompat.ActionBar"
+        android:background="@drawable/nav_header_style"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/vouchers_toolBar"
+        android:id="@+id/vouchers_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/vouchers_item_list" />
+
+    <TextView
+        android:layout_below="@id/vouchers_toolBar"
+        android:id="@+id/vouchers_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_value_in_coupon"
+        android:textColor="@color/colorWhite"
+        android:visibility="gone" />
+
+</RelativeLayout>

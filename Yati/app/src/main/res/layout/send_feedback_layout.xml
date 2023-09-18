@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/alert_popup"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/feedback_ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:stepSize="0.5"
+        android:layout_centerHorizontal="true"
+        android:theme="@style/FeedbackRatingBar"
+        android:layout_marginTop="5dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/feedback_ratingBar"
+        android:layout_marginLeft="15dp"
+        app:cardCornerRadius="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="@color/colorBlack"
+        android:layout_marginBottom="15dp">
+
+    <LinearLayout
+        android:id="@+id/comment_editText_layout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="1dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/sendFeedback_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        android:hint="Write here your feedback. " />
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

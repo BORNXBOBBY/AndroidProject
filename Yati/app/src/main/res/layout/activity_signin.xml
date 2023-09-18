@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    android:onClick="closeKeyboard"
+    tools:context=".activities.SigninActivity"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:id="@+id/signin_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="@string/verify_phone_number"
+        android:titleTextColor="@color/colorWhite"
+        android:visibility="gone"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/signinOtp_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginBottom="50dp">
+
+
+            <ImageView
+                android:layout_marginTop="60dp"
+                android:id="@+id/logo1_imageView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@mipmap/yati_logo_round" />
+
+            <TextView
+                android:id="@+id/text1_view1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorWhite"
+                android:textSize="32sp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="-30dp"
+                android:text="@string/elixir_of_life"
+                android:layout_below="@+id/logo1_imageView"/>
+
+
+        <EditText
+            android:id="@+id/signinOtp_editText"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:hint="Enter OTP"
+            android:gravity="center"
+            android:background="@color/colorWhite"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/text1_view1"
+            android:layout_marginTop="50dp"/>
+
+        <Button
+            android:id="@+id/signinOtp_button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/signinOtp_editText"
+            android:layout_centerHorizontal="true"
+            android:text="Verify OTP"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/round_corner"
+            android:backgroundTint="#00BCD4"/>
+
+    </RelativeLayout>
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+    <LinearLayout
+        android:id="@+id/signin_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/logo_layout"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="60dp"
+            android:id="@+id/logo_imageView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@mipmap/yati_logo_round" />
+
+        <TextView
+            android:id="@+id/text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorWhite"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="-30dp"
+            android:text="@string/elixir_of_life"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            app:hintEnabled="true"
+            app:startIconTint="@color/colorWhite"
+            android:textColorHint="#a8a8a8">
+
+            <EditText
+                android:id="@+id/name_editText"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:backgroundTint="@color/colorWhite"
+                android:gravity="center_vertical"
+                android:hint="Enter Phone Number"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhite" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/forgetPassword_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/forget_password"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_corner"
+        android:text="Send OTP" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textSize="16sp"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_horizontal"
+            android:text="@string/don_t_have_account"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/register_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_horizontal"
+            android:text="Register Here!"
+            android:textColor="#00BCD4"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

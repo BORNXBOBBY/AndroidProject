@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddBikeActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:subtitleTextColor="@color/colorWhite"
+        app:title="Add Your Bike"
+        app:titleTextColor="@color/colorWhite"
+        android:theme="@style/Widget.AppCompat.ActionBar"
+        android:background="@drawable/nav_header_style"/>
+
+    <ScrollView
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/border"
+                android:textColorHint="#a8a8a8">
+
+                <EditText
+                    android:id="@+id/editText_bikeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorWhite"
+                    android:hint="@string/enter_bike_name"
+                    android:inputType="text"
+                    android:textColor="@color/colorWhite"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:textColorHint="#a8a8a8">
+
+                <EditText
+                    android:id="@+id/editText_registerNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/colorWhite"
+                    android:hint="@string/registration_no"
+                    android:inputType="text"
+                    android:textColor="@color/colorWhite" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/purchase_date"
+                android:textColor="#a8a8a8"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/datePicker_textView"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:focusable="true"
+                android:hint="@string/select_date"
+                android:textColorHint="#a8a8a8"
+                android:focusableInTouchMode="true"
+                android:clickable="true"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_baseline_calendar_icon"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp"
+                android:gravity="center_vertical"
+                android:layout_marginStart="3dp"
+                android:layout_marginLeft="3dp" />
+
+        </LinearLayout>
+
+            <Button
+                android:id="@+id/button_AddBike"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/button_style"
+                android:text="@string/add_button"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

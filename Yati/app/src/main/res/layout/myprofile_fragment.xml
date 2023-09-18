@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myProfile_layout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    android:orientation="vertical"
+    tools:context=".fragments.MyProfileFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginRight="20sp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/profile_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/profile_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/vouchers_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Vouchers"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/address_textView"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/coupon_tittle"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/myServices_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/my_services_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bookService_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/book_service_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/myBykes_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/my_bikes_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/myPointHistory_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/my_point_history_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/help_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/help_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/signOut_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/sign_out_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/version_text"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/sign_out_text"
+            android:textColor="@color/colorWhite"
+            android:gravity="center_vertical"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

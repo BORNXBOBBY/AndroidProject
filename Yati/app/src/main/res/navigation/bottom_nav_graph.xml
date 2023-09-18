@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav_graph"
+    app:startDestination="@id/home_nav">
+
+    <fragment
+        android:id="@+id/home_nav"
+        android:name="com.example.yati.fragments.HomeFragment"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/product_nav"
+        android:name="com.example.yati.fragments.ProductsFragment"
+        tools:layout="@layout/products_fragment" />
+    <fragment
+        android:id="@+id/refer_nav"
+        android:name="com.example.yati.fragments.ReferFragment"
+        tools:layout="@layout/refer_fragment" />
+    <fragment
+        android:id="@+id/service_nav"
+        android:name="com.example.yati.fragments.MyProfileFragment"
+        tools:layout="@layout/myprofile_fragment" />
+</navigation>
