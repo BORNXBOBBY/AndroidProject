@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">VideoPlayer</string>
+    <string name="heading_of_activity">Running a video file in an activity</string>
+</resources>
